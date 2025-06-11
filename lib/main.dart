@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-
+// import 'screen/navbar.dart';
+import 'screen/navbar.dart';
 import 'view_models/auth_v_model.dart';
 import 'screen/auth/login_screen.dart';
 import 'screen/auth/register_screen.dart';
@@ -69,17 +70,7 @@ class SplashScreen extends StatelessWidget {
 }
 
 // HomeScreen Placeholder
-class HomeScreen extends StatelessWidget {
-  const HomeScreen({super.key});
 
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(title: const Text('Home')),
-      body: const Center(child: Text('Selamat datang di Home!')),
-    );
-  }
-}
 
 // RegisterScreen Placeholder
 class RegisterScreen extends StatelessWidget {
